@@ -1,0 +1,277 @@
+*{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebe8e8
+}
+
+:root{
+    --color-primary: #f66b40;
+    --color-secundary: #294380;
+    --color-tertiary: #242222;
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+
+nav{
+    height: 60px;
+    width: 100%;
+    padding: 0 auto;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+    line-height: 5;
+}
+
+label.logo {
+    color: var(--color-black);
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: var(--color-black);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+
+
+.button{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: var(--color-black);
+    transform: scaleY(1.2);
+    color: #fff;
+}
+
+
+
+/* Card Footer 1*/
+
+
+.meio{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.publicações-artigos-1{
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.card-1{
+    
+    width: 1150px;
+    height: 350px;
+    margin: 5px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Card Header*/
+.card-header-1 {
+    width: 600px;
+    height: 550px;
+    overflow: hidden;
+    float: left;
+  }
+
+.card-img-1 {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+  /* Card Body */
+.card-body-1 {
+    height: 260px;
+    padding: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card-titulo-1{
+ font-size: 25px;
+ padding: 10px 30px;
+ float: left;
+}
+
+.card-data-1{
+    line-height: 5px;
+    font-size: 12px;
+    padding: 50px;
+    text-align: left;
+}
+
+.text-primary-1{
+    color: var(--color-primary);
+    padding-left: 5px;
+  }
+
+.datetime-1{
+    padding-left: 30px;
+}  
+
+.card-texto-1 {
+    
+    font-size: 20px;
+    width: 800px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 460px;
+  }
+  
+  /* Card Footer */
+.card-footer-1 {
+    padding-left: 635px;
+    text-align: left;
+    line-height: 50px;
+    
+  }
+
+.compartilhe{
+    padding: 0px 0;
+    line-height: 5px;
+}
+
+.icon{
+    padding: 5px;
+}
+
+
+
+/* Card Footer 2*/
+
+#publicações-2{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.publicações-artigos-2{
+
+    font-size: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Card */
+.card {
+    width: 300px;
+    height: 560px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Card Header*/
+  .card-header-2 {
+    width: 95%;
+    height: 400px;
+    padding: 5px;
+    overflow: hidden;
+    
+  }
+  
+  .card-img-2 {
+    min-width: 100%;
+    width: 200px;
+    height: 600px;
+    border-radius: 5px;
+  }
+  
+  /* Card Body */
+  .card-body-2 {
+    height: 0px;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .card-titulo-2 {
+    font-size: 25px;
+    padding: 5px 0px;
+    float: left;
+    
+  }
+
+  .card-data-2{
+    line-height: 0px;
+    font-size: 12px;
+    padding: 20px 40px;
+    text-align: right;
+
+}
+
+.datetime-2{
+    padding-left: 5px;
+}  
+  
+.card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto; 
+}
+  
+  /* Card Footer */
+
+
+  
+
+  .button-2 {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 80px;
+  }
+  
+  .icon-2{
+  align-items: right;
+  line-height: 70px;
+  padding: 5px;
+  }
+  
+  
