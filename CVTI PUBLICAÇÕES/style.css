@@ -179,11 +179,14 @@ nav ul li a{
 /* Card Footer 2*/
 
 #publicações-2{
+    width: 100%;
     display: flex;
-    padding: 5px;
+    line-height: 30px;
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
+    
 }
 
 .publicações-artigos-2{
@@ -201,13 +204,15 @@ nav ul li a{
 /* Card */
 .card {
     width: 300px;
-    height: 560px;
+    height: 610px;
     margin: 25px;
     background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
     border-radius: 10px;
+    float: left;
   }
+
   
   /* Card Header*/
   .card-header-2 {
@@ -257,21 +262,35 @@ nav ul li a{
     margin: 0 auto; 
 }
   
-  /* Card Footer */
+
+  .button-2{
+    background-color: var(--color-secundary);
+    color: var(--color-white);
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 7px 13px;
+    border-radius: 3px;
+    margin-top: 90px;
+   
+}
+
+.button-2:hover{
+    background-color: var(--color-black);
+    transform: scaleY(1.2);
+    color: #fff;
+}
 
 
-  
-
-  .button-2 {
-    margin-top: 10px;
-    text-align: left;
-    line-height: 80px;
-  }
   
   .icon-2{
   align-items: right;
-  line-height: 70px;
-  padding: 5px;
+  padding-left: 5px;
   }
   
   
+.footer{
+    background-color: var(--color-primary);
+}
